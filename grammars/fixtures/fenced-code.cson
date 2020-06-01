@@ -27,7 +27,7 @@ scopeName: "fenced-code.md"
 
 list: [
   { pattern:'apib|apiblueprint', include:'text.html.markdown.source.gfm.apib', contentName:'source.embedded.gfm.apib' }
-  { pattern:'ass' }
+  { include:'source.ass' }
 
   # Added for #211 to support the language-babel package. Remove if it conflicts with regular Javascript
   { pattern:'babel', include:'source.js.jsx', contentName:'source.embedded.js.jsx' }
@@ -50,7 +50,7 @@ list: [
   { pattern:'erlang' }
   { pattern:'go|golang', include:'source.go', contentName:'source.embedded.go' }
   { pattern:'haskell' }
-  { pattern:'hcl' }
+  { include:'source.hcl' }
   { pattern:'html', include:'text.html.basic', contentName:'source.embedded.html' }
   { pattern:'idris' }
   { pattern:'java' }
@@ -64,7 +64,7 @@ list: [
   { pattern:'make|makefile', include:'source.makefile', contentName:'source.embedded.makefile' }
   { pattern:'markdown|mdown|md', include:'text.md', contentName:'text.embedded.md' }
   { pattern:'m|mathematica', include:'source.mathematica', contentName:'source.embedded.mathematica' }
-  { pattern:'mermaid' }
+  { include:'source.mermaid' }
   { pattern:'mson', include:'text.html.markdown.source.gfm.mson', contentName:'source.embedded.mson' }
   { pattern:'objc|objective-c', include:'source.objc', contentName:'source.embedded.objc' }
   { pattern:'php', include:'text.html.php', contentName:'source.embedded.text.html.php' }
