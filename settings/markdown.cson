@@ -1,4 +1,4 @@
-'.text.md:not(.code)':
+'.source.gfm:not(.code)':
   editor:
     softWrap: true
     commentStart: '<!-- '

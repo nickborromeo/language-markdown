@@ -1,5 +1,5 @@
 name: 'Markdown'
-scopeName: 'text.md'
+scopeName: 'source.gfm'
 limitLineLength: false
 fileTypes: [
   'markdown'

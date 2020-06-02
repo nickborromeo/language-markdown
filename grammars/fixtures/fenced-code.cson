@@ -62,7 +62,7 @@ list: [
   { pattern:'less', include:'source.css.less', contentName:'source.embedded.css.less' }
   { pattern:'lua' }
   { pattern:'make|makefile', include:'source.makefile', contentName:'source.embedded.makefile' }
-  { pattern:'markdown|mdown|md', include:'text.md', contentName:'text.embedded.md' }
+  { pattern:'markdown|mdown|md', include:'source.gfm', contentName:'source.embedded.gfm.md' }
   { pattern:'m|mathematica', include:'source.mathematica', contentName:'source.embedded.mathematica' }
   { pattern:'mermaid', include: 'source.mermaid', contentName: 'source.embedded.mermaid' }
   { pattern:'mson', include:'text.html.markdown.source.gfm.mson', contentName:'source.embedded.mson' }

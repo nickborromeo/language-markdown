@@ -1,6 +1,6 @@
 {
-  "name": "Markdown",
-  "scopeName": "text.md",
+  "name": "GitHub Markdown",
+  "scopeName": "source.gfm",
   "limitLineLength": false,
   "fileTypes": [
     "markdown",
@@ -3263,7 +3263,7 @@
           "contentName": "text.embedded.md",
           "patterns": [
             {
-              "include": "text.md"
+              "include": "source.gfm"
             }
           ]
         },
